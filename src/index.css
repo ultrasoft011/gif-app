@@ -1,0 +1,28 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  padding: 60px;
+}
+
+input {
+  padding: 5x;
+}
+
+.card {
+  text-align: center;
+  border: 1px solid black;
+  margin: 25px;
+  overflow: hidden;
+}
+
+.card img {
+  max-height: 200px;
+}
+
+.card-grid {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
